@@ -13,9 +13,6 @@
 		{% for post in posts %}
 		<div><p>{{ post.author.nickname }} says: <b>{{ post.body }}</b></p></div>
 		{% endfor %}
-		{% for fr in friends %}
-		<div><p>{{ fr.friend.nickname }} from: <b> {{ fr.country }}</b>  is: <b>{{ fr.age }}</b>  </p></div>
-		{% endfor %}
 	{% endblock %}
   </body>
 </html>
